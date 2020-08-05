@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -97,3 +98,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+=======
+# Rostros Fisicos Website using Gatsby
+A repository dedicated to the development of the Rostros Físicos website. Rostros Físicos is an outreach project dedicated to expanding upon the representation of Hispanic/Latinx-identifying peoples in Physics by interviewing and creating videos about Hispanic/Latinx physicists at all points in the Physics career trajectories.
+>>>>>>> 5acd88061e12f0bbc167576ad1f8472fcffbedeb
