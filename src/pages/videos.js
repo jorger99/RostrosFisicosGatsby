@@ -1,13 +1,14 @@
 import React from "react"
-import Header from "../components/header" // highlight-line
-import { Link } from "gatsby" // highlight-line
+import Header from "../components/header"
+import PageLayout from "../components/pagelayout.js"
+
+import { Link } from "gatsby"
 
 export default function People() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
+    <PageLayout>
       <Header headerText="Videos" />
       <p>Here is a list of our videos</p>
-    </div>
+    </PageLayout>
   )
 }

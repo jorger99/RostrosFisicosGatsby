@@ -1,14 +1,15 @@
 import React from "react"
-import Header from "../components/header" // highlight-line
-import { Link } from "gatsby" // highlight-line
+import Header from "../components/header"
+import PageLayout from "../components/pagelayout"
+
+import { Link } from "gatsby"
 
 
 export default function About() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
-      <Header headerTexts="About Gatsby" />  {/* highlight-line */}
+    <PageLayout>
+      <Header headerText="About Gatsby" />
       <p>Such wow. Very React.</p>
-    </div>
+    </PageLayout>
   )
 }
