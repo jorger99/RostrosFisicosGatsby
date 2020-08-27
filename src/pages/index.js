@@ -19,7 +19,6 @@ export default () => (
     render={data => <IndexPage data={data} />}
   />
 )
-
 const IndexPage = ({ data }) => (
   <PageLayout>
 

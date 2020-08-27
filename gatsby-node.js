@@ -3,7 +3,7 @@ const path = require(`path`)
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const personFragment = path.resolve(`src/components/templates/personFragment.jsx`)
+  const peopleTemplate = path.resolve(`src/components/templates/people.jsx`)
 
   return graphql(
     `
@@ -34,7 +34,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       createPage({
         path: slug,
-        component: personFragment,
+        component: peopleTemplate,
         context: {
           ...person,
         },

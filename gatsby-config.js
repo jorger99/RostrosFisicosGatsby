@@ -28,14 +28,6 @@
       },
     },
 
-     `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/people`,
-      },
-    },
-
     {
      resolve: `gatsby-source-filesystem`,
      options: {
