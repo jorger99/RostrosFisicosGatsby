@@ -5,7 +5,7 @@ import "../layout.css"
 
 const Layout = props => {
   const {
-    pageContext: {FirstName, LastName },
+    pageContext: {FirstName, LastName, DateOfBirth, Biography },
   } = props
 
   return (
@@ -23,8 +23,10 @@ const Layout = props => {
           <h1>
             {FirstName} {LastName}
           </h1>
-          <p>Age: {FirstName}</p>
+          <p>Age: {DateOfBirth}</p>
           <p>Location: {FirstName} </p>
+          <p> {Biography} </p>
+
         </main>
       </div>
     </>
