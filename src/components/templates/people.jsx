@@ -1,11 +1,13 @@
 import React from "react"
 
 import Header from "../header"
-import "../layout.css"
+import "../css/person_layout.css"
+import "../styles/global.css"
+
 
 const Layout = props => {
   const {
-    pageContext: {FirstName, LastName, DateOfBirth, Biography },
+    pageContext: {FirstName, LastName, DateOfBirth, Biography},
   } = props
 
   return (
@@ -14,7 +16,7 @@ const Layout = props => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1200,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
@@ -26,6 +28,10 @@ const Layout = props => {
           <p>Age: {DateOfBirth}</p>
           <p>Location: {FirstName} </p>
           <p> {Biography} </p>
+
+        <div class="w-layout-grid grid">
+          <img src="src/images/blank-person.png" width="250" height="250" alt="Test"></img>
+        </div>
 
         </main>
       </div>

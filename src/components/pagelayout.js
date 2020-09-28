@@ -9,14 +9,15 @@ const ListLink = props => (
 
 export default function PageLayout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 900, padding: `0 1rem` }}>
 
     <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}> Rostros Fisicos</h3>
+        <h2 style={{ display: `inline` }}> Rostros Fisicos</h2>
       </Link>
+
       <ul style={{ listStyle: `none`, float: `right` }}>
-      <ListLink to="/">Home</ListLink>
+        <ListLink to="/">Home</ListLink>
         <ListLink to="/people/">People</ListLink>
         <ListLink to="/videos/">Videos</ListLink>
         <ListLink to="/about/">About</ListLink>
