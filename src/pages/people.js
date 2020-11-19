@@ -1,6 +1,5 @@
 import { StaticQuery, graphql, Link } from "gatsby"
 import React from "react"
-import Header from "../components/header"
 import PageLayout from "../components/pagelayout.js"
 
 
@@ -21,6 +20,7 @@ export default () => (
 )
 const PeoplePage = ({ data }) => (
   <PageLayout>
+    <h1> People </h1>
     <p>Here is a list of our members</p>
     <p>These people were found in the CSV file.</p>
     <ul>

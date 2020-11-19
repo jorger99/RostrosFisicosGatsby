@@ -16,7 +16,7 @@ export default function PageLayout({ children }) {
         <h2 style={{ display: `inline` }}> Rostros Fisicos</h2>
       </Link>
 
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul style={{ listStyle: `none`, float: `right`, color: 'black' }}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="/people/">People</ListLink>
         <ListLink to="/videos/">Videos</ListLink>

@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem
+}
+
+.flex-item {
+  width: 50%;
+  outline: 2px solid black;
+}
+
+.half-column {
+  width: 50%;
+  height: 300px;
+  outline: 2px solid black;
+}
+
+
+#clear {
+    clear: both;
+}
