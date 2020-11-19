@@ -21,7 +21,6 @@ export default () => (
 )
 const PeoplePage = ({ data }) => (
   <PageLayout>
-    <Header headerText="People" />
     <p>Here is a list of our members</p>
     <p>These people were found in the CSV file.</p>
     <ul>

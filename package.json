@@ -13,8 +13,11 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+  "resolutions": {
+    "eslint-loader": "2.1.2"
+  },
   "dependencies": {
-    "gatsby": "^2.24.51",
+    "gatsby": "^2.26.0",
     "gatsby-plugin-offline": "2.2.9",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.29",
@@ -29,6 +32,7 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-grand-view": "^0.16.19",
     "typography-theme-lincoln": "^0.16.19"
   },
   "devDependencies": {
