@@ -18,7 +18,7 @@ export default function PageLayout({ children }) {
 
       <ul style={{ listStyle: `none`, float: `right`, color: 'black' }}>
         <ListLink to="/">Home</ListLink>
-        <ListLink to="/people/">Team</ListLink>
+        <ListLink to="/people/">People</ListLink>
         <ListLink to="/videos/">Videos</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
