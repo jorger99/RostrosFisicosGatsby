@@ -9,7 +9,6 @@ const Layout = props => {
 
   return (
     <>
-    <PageLayout>
       <div
         style={{
           margin: `3rem auto`,
@@ -52,7 +51,7 @@ const Layout = props => {
 
         </main>
       </div>
-    </PageLayout>
+
     </>
   )
 }
